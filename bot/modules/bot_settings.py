@@ -43,7 +43,7 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 120,
                   'RSS_DELAY': 900,
                   'STATUS_UPDATE_INTERVAL': 15,
                   'SEARCH_LIMIT': 0,
-                  'UPSTREAM_REPO': 'https://github.com/Dawn-India/Z-Mirror',
+                  'UPSTREAM_REPO': 'https://github.com/Anything-bro/Z-Mirror',
                   'UPSTREAM_BRANCH': 'main'}
 
 
