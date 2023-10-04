@@ -253,7 +253,7 @@ async def fstats(_, query):
         elif status == MirrorStatus.STATUS_SEEDING:
             seed += 1
 
-    stat = f'_______Zee Bot Info_______\n\n'\
+    stat = f'_______Sahil Bot Info_______\n\n'\
            f'C: {cpup}% | R: {ramp}% | D: {disk}%\n\n' \
            f'T  : {totl} | F  : {free} | Q : {inqu}\n' \
            f'DL: {dwld} | UL: {upld} | SD: {seed}\n' \
