@@ -29,8 +29,8 @@ async def mirror_status(_, message):
             disk_usage(config_dict['DOWNLOAD_DIR']).free)
         msg = '<b>Join @sahil_official_here otherwise kill yourself 🥵</b>'
         msg += '\n\nNo Active Tasks!🥵\n___________________________'
-        msg += f"\nBot Powered By @sahil_official_here 🔥" \
-               f"\nMade By @sahil_x_official with love❤️‍🔥"
+        msg += f"\n<b>Bot Powered By @sahil_official_here 🔥</b>" \
+               f"\n<b>Made By @sahil_x_official with love❤️‍🔥</b>"
         reply_message = await sendMessage(message, msg)
         await auto_delete_message(message, reply_message)
     else:
